@@ -105,7 +105,7 @@ let btnEqualto = document.getElementById('btnEqualto')
 //    G R A Y   B U T T O N S
 // function to clear output field with AC btn
 btnAC.addEventListener('click', () => {
-    outputField.value = "0";
+    outputField.value = "";
     stringOfQuestion.innerHTML = ''
     btnBackspace.style.display = 'none'
     btnBackspace2.style.display = 'none'
