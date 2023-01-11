@@ -130,6 +130,11 @@ button:active{
 
 /*                        T H E M E   C H A N G E */
 
+.color-picker{
+    position: absolute;
+    top: 0;
+}
+
 .visually-hidden{
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
