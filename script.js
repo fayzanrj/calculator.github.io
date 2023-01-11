@@ -84,10 +84,13 @@ btnDot.addEventListener('click', () => {
         }
     }
     if (condition != true) {
-        outputField.value = outputField.value + btnDot.innerHTML;
+        if(outputField.value[0] == '0'){
+            outputField.value =  ".";
+        } else {
+            outputField.value = outputField.value + btnDot.innerHTML;
+        }
     }
 })
-
 
 
 //SYMBOLS 
